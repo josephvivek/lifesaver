@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lifesaver</title>
+    <link rel="stylesheet" href="styles/header.css">
+    <!-- <link rel="stylesheet" href="styles/main.css"> -->
+    <link rel="stylesheet" href="styles/donorSearch.css">
+    <script defer src="scripts/donorSearch.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="left">
+            <img src="images/logo.png" alt="">
+            <p>LIFESAVER</p>
+        </div>
+        <div class="right">
+            <!-- <p class="have-account">Already have an account?</p> -->
+            <p class="login">Homepage</p>
+        </div>
+    </div>
+
+    
+    <div class="main-container">
+        <!-- Dropdown for Districts -->
+        <div class="inner-container">
+            <div class="dropdown-container">
+                <!-- Dropdown for Districts -->
+                <div class="dropdown">
+                  <!-- <label for="district">Select District:</label> -->
+                  <select id="district">
+                    <option value="" disabled selected>Select District</option>
+                    <option value="thiruvananthapuram">Thiruvananthapuram</option>
+                    <option value="kollam">Kollam</option>
+                    <option value="pathanamthitta">Pathanamthitta</option>
+                    <option value="alappuzha">Alappuzha</option>
+                    <option value="kottayam">Kottayam</option>
+                    <option value="idukki">Idukki</option>
+                    <option value="ernakulam">Ernakulam</option>
+                    <option value="thrissur">Thrissur</option>
+                    <option value="palakkad">Palakkad</option>
+                    <option value="malappuram">Malappuram</option>
+                    <option value="kozhikode">Kozhikode</option>
+                    <option value="wayanad">Wayanad</option>
+                    <option value="kannur">Kannur</option>
+                    <option value="kasaragod">Kasaragod</option>
+                  </select>
+                </div>
+              
+                <!-- Dropdown for Talukas -->
+                <div class="dropdown">
+                  <!-- <label for="taluka">Select Taluka:</label> -->
+                  <select id="taluka">
+                    <!-- Options for talukas will be populated dynamically based on the selected district using JavaScript -->
+                    
+                  </select>
+                </div>
+              
+                <!-- Dropdown for Blood Groups -->
+                <div class="dropdown">
+                  <!-- <label for="bloodGroup">Select Blood Group:</label> -->
+                  <select id="bloodGroup">
+                    <option value="" disabled selected>Select Blood Group</option>
+                    <option value="A+">A+</option>
+                    <option value="A-">A-</option>
+                    <option value="B+">B+</option>
+                    <option value="B-">B-</option>
+                    <option value="O+">O+</option>
+                    <option value="O-">O-</option>
+                    <option value="AB+">AB+</option>
+                    <option value="AB-">AB-</option>
+                  </select>
+                </div>
+            </div>
+            <button>Search</button>
+
+        </div>
+          
+      </div>
+
+    
+</body>
+</html>   
