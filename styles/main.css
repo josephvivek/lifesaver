@@ -1,0 +1,58 @@
+.main
+{
+    height: 100vh;
+    padding-top: 0.01rem;
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+
+.main-container
+{
+    position: relative;
+    top:30%;
+    left: 60%;
+    max-width: 30rem;
+    
+}
+
+
+
+
+
+.tagline
+{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.subtext
+{
+    text-align: center;
+    font-size: 1.5rem;
+    
+}
+
+.btn-container
+{
+    padding-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.btn-container button
+{
+    font-size: 1.2rem;
+    border-radius: 1.3rem;
+    border: 0;
+    padding: 0.7rem;
+    transition: 0.3s;
+}
+
+.btn-container button:hover
+{
+    color: white;
+    background-color: black;
+}

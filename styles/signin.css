@@ -1,0 +1,41 @@
+.page-container
+{
+    height: 100vw;
+    position: relative;
+}
+
+.page-container h2
+{
+    position: absolute;
+    top: 6%;
+    left: 10%;
+    margin-top: 3.4rem;
+}
+
+.form-container
+{
+    padding-top: 2rem;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+
+.form-container form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.form-container form input,select
+{
+    font-size: 1.1rem;
+    color: gray;
+}
+
+
+
+
+

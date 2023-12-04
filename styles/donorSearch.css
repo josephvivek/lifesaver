@@ -1,0 +1,32 @@
+.main-container
+{
+    position: relative;
+    height: 100vh;
+}
+
+.dropdown-container{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+}
+
+.dropdown select 
+{
+    font-size: 1.3rem;
+}
+
+.dropdown select option
+{
+    font-size: 0.8rem;
+}
+button
+{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    font-size: 1.2rem;
+}
